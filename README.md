@@ -2,7 +2,7 @@
 
 > Docentes: Sergio De Raco y Viktoriya Semeshenko
 
-> Versión: Primer cuatrimestre 2024
+> Versión: Primer cuatrimestre 2025
 
 ```
 20 de Marzo, 2025
@@ -49,7 +49,7 @@ Para la aprobación del curso se requiere de la:
 
 * *Unidad 2a. Aplicaciones 1: Captura de datos no tradicionales*. Scraping 101 (rvest). CRAN vignette/ LADAL web crawling and scraping/Recursos para scraping en W3schools (tutoriales y selectores) 
 
-* *Unidad 2b. Aplicaciones 2: Redes de interacción*. Introducción al análisis de redes en R. Statistical Analysis of Network Data. Tutorial Kateto. Casos: Redes Gutenberg/Redes sociales ONA Book (API tweets British network) 
+* *Unidad 2b. Aplicaciones 2: Redes de interacciones*. Introducción al análisis de redes en R. Statistical Analysis of Network Data. Tutorial Kateto. Casos: Redes Gutenberg/Redes sociales ONA Book (API tweets British network) o Trump 
 
 * *Unidad 2c. Aplicaciones 3: Text mining*. Introducción al análisis de textos en R. Tidytext con novelas y datos de Twitter. 
 
