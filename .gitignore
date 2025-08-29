@@ -5,6 +5,7 @@
 .RData
 .Ruserdata
 *.Rproj
+*.code-workspace
 
 ## folders: add more with final backslash: FOLDER/ 
 bib/
