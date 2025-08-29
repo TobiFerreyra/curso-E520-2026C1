@@ -11,6 +11,14 @@
 bib/
 figs/
 output/
+
+## exceptions for .gitkeep files in ignored directories
+!bib/.gitkeep
+!figs/.gitkeep
+!output/.gitkeep
+!*/bib/.gitkeep
+!*/figs/.gitkeep
+!*/output/.gitkeep
 tmp/
 old/
 repos-interesantes/
