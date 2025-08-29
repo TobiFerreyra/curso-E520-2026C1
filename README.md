@@ -1,11 +1,10 @@
 # ECON 520 - Ciencia de Datos para Economía y Negocios
 
 > Docentes: Sergio De Raco y Viktoriya Semeshenko
-
-> Versión: Primer cuatrimestre 2025
+> Versión: Segundo cuatrimestre 2025
 
 ```
-20 de Marzo, 2025
+19 de Agosto, 2025
 ```
 
 ## Objetivos de aprendizaje
@@ -32,30 +31,34 @@
 
 ## Criterio de evaluación
 
-Para la aprobación del curso se requiere de la:
+Para la aprobación del curso se requiere:
 
-1. participación grupal en Hackathon de medio término, y
+1. participación en clase
+2. participación grupal en Hackathon de medio término
+3. entrega de tareas periódicas
+4. elaboración y aprobación de un proyecto de datos final en grupos
 
-2. elaboración y aprobación de un proyecto de datos final en grupos.
+## Clases
+Cronograma tentativo de clases (https://bit.ly/e520-2025c2-crono) con conenidos y links a material actualizados a medida que avanza el curso.
+
 
 
 ## Resumen de contenidos
 
-* *Unidad 0. Instalación y setup de workplace para proyectos de datos en R*. Lenguaje R y entorno en RStudio. Interfase de línea de comandos (CLI) y RStudio.
+* *Unidad 0. Instalación y setup de workplace para proyectos de datos en R*. Lenguaje R y entorno en RStudio. Git para control de versiones. Interfase de línea de comandos (CLI) y RStudio.
 
 * *Unidad 1a. Elementos de programación en R*. Introducción a elementos de programación (dato, conjunto de datos). Gestión de variables y almacenamiento. Estructuras de datos (tipos). Operaciones (pivoting/merges para dataframes). Sentencias condicionales y estructuras de control de flujos: `for`, `while`, `if`. Implementación de funciones ad-hoc. Análisis estadístico descriptivo básico. R con tidyverse. Piping. Gestión de flujos de trabajo en el ciclo de los proyectos de datos (PD): Importar. Preprocesar (Emprolijar, Transformar y Explorar). Visualizar. Modelizar. Comunicar.
 
 * *Unidad 1b. Visualización y comunicación en R*. Nociones de graficación (forma, color, tamaño, color). Exploración y Visualización de datos. Introducción a ggplot, template. Casos: tidy datasets, Gapminder. Comunicación: Rmarkdown, Graphics, Notebooks, Presentaciones, Interactivos, Dashboards. 
 
-* *Unidad 2a. Aplicaciones 1: Captura de datos no tradicionales*. Scraping 101 (rvest). CRAN vignette/ LADAL web crawling and scraping/Recursos para scraping en W3schools (tutoriales y selectores) 
+* *Unidad 2a. Aplicaciones 1: Redes de interacciones*. Introducción al análisis de redes en R. Statistical Analysis of Network Data. Tutorial Kateto. Casos: Redes Gutenberg/Redes sociales ONA Book (API tweets British network) o Trump 
 
-* *Unidad 2b. Aplicaciones 2: Redes de interacciones*. Introducción al análisis de redes en R. Statistical Analysis of Network Data. Tutorial Kateto. Casos: Redes Gutenberg/Redes sociales ONA Book (API tweets British network) o Trump 
+* *Unidad 2b. Aplicaciones 2: Captura de datos no tradicionales*. Scraping 101 (rvest). CRAN vignette/ LADAL web crawling and scraping/Recursos para scraping en W3schools (tutoriales y selectores) 
 
 * *Unidad 2c. Aplicaciones 3: Text mining*. Introducción al análisis de textos en R. Tidytext con novelas y datos de Twitter. 
 
 
-
-## Fuentes consultadas
+## Fuentes utilizadas
 
 El material para el curso fue extraído y transformado de diversas fuentes, de las que destacamos:
   
@@ -93,19 +96,11 @@ Para desarrollar los contenidos del curso utilizaremos el software estadístico 
 
 Adicionalmente, requeriremos instalar [`git`](https://git-scm.com/downloads), una herramienta para el control de versiones que servirá para gestionar de manera eficiente el desarrollo de los proyectos de datos que encararemos en el curso.
 
-> **Requerimientos mínimos de hardware**:
-  
-> - Procesador 64 bits
-
-> - 8Gb de RAM
-
-> - Mínimo de 10Gb de espacio disponible
-
 A continuación detallamos los pasos a seguir para poner a punto el entorno de trabajo.
 
 ## R y RStudio
 
-1. Seguir instrucciones para instalar en https://posit.co/download/rstudio-desktop/
+Seguir instrucciones para instalar en https://posit.co/download/rstudio-desktop/
   
 ## Instalar git
   
@@ -115,7 +110,7 @@ A continuación detallamos los pasos a seguir para poner a punto el entorno de t
 git
 ```
 
-2. Si lo anterior presenta un error, en Windows descargar e instalar [`git`](https://git-scm.com/downloads), en macOS o Linux usar el administrador de paquetes correspondiente.
+2. Si lo anterior presenta un error, en Windows [descargar](https://git-scm.com/downloads) e instalar `git`, en macOS o Linux usar el administrador de paquetes correspondiente.
 
 > Nota: [Acá](https://docs.microsoft.com/es-mx/devops/develop/git/install-and-set-up-git) se puede consultar una guía provista por Microsoft
 
