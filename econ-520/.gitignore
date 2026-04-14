@@ -1,0 +1,35 @@
+## RStudio default 
+## (excluded files when a git repo is created with a new project)
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+*.code-workspace
+
+## folders: add more with final backslash: FOLDER/ 
+bib/
+figs/
+output/
+
+## exceptions for .gitkeep files in ignored directories
+!bib/.gitkeep
+!figs/.gitkeep
+!output/.gitkeep
+!*/bib/.gitkeep
+!*/figs/.gitkeep
+!*/output/.gitkeep
+tmp/
+old/
+repos-interesantes/
+#*_cache
+#*_files
+#__pycache__/
+#.ipynb_checkpoints/
+#.jupyter/
+#.vscode/
+
+## files: add more extensions separated by `|` character
+\.(?i)(tmp|rar|zip|jpg|jpeg|png|log)(?-i)$
+.~lock*
+Thumbs.*
