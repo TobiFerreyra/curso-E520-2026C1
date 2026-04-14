@@ -1,0 +1,36 @@
+Y <- c(120, 150, 160, 290, 230, 130, 270, 250)
+X <- c(20, 32, 30, 55, 40, 15, 45, 35)
+
+
+Beta1 <- (length(Y)*sum(X*Y) - sum(X)*sum(Y)) / (length(Y)*sum(X^2) - (sum(X))^2)
+
+Beta0 <- mean(Y)- Beta1*mean(X)
+Beta0
+
+modelo <- lm(Y ~ X[,2])
+summary(modelo)
+
+
+sum_X <- 11.34
+sum_Y <- 20.72
+sum_X2 <- 12.16
+sum_Y2 <- 84.96
+sum_XY <- 22.13
+N <- 200
+
+Beta1 <- (N*sum_XY - sum_X*sum_Y)/(N*sum_X2 - sum_Xˆ2)
+Beta0 <- sum_Y/N - Beta1*sum_X/N
+Beta0
+
+sum_X <- 186.2
+sum_Y <- 21.9
+sum_x2 <- 215.4
+sum_y2 <- 86.9
+sum_xy <- 106.4
+N <- 20
+Beta1 <- sum_xy/sum_x2
+Beta0 <- sum_Y/N - Beta1*sum_X/N
+Beta0
+
+R2 <- (Beta1ˆ2)*sum_x2/sum_y2
+R2

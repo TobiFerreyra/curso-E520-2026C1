@@ -1,0 +1,16 @@
+
+
+# cargar librerias --------------------------------------------------------
+
+library(tidyverse)
+
+# cargar datos ------------------------------------------------------------
+
+anac_2025 <- read_csv2(file = 'curso-E520-2026C1/Clases/descarga de datos aereos argentina.csv')
+
+# analisis de los datos ---------------------------------------------------
+
+glimpse(anac_2025)
+
+#las que tienen espacios necesitan comillas
+

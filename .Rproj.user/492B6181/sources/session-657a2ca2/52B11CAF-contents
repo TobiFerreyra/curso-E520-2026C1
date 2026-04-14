@@ -1,0 +1,29 @@
+library(profvis)
+library(tseries)
+# Setear N_max (cantidad máxima de valores de la variable X simulados), 
+# N_min (cantidad mínima de valores de la variable X simulados), 
+# step (tamaño de cada paso dado en la iteración) y
+# sims (cantidad de simulaciones ejecutadas)
+N_max <- 100
+N_min <- 10
+step <- 10
+sims <- 1000
+# Se simula la media muestral
+X_mean <- NULL
+sigma <- NULL
+Z <- NULL
+#set.seed(2)
+windows()
+for (j in seq(N_min,N_max,step)){
+  for (i in 1:sims){
+    X <- runif(j)
+    X_mean[i] <- sum(X)/j
+    sigma[i] <- sd(X)
+    Z[i] <- (X_mean[i]-0.5)/(sigma[i]/sqrt(j))
+  }
+  hist(Z,xlim=c(-5,5),main=paste("Histogram of Z (N =",j,")"))
+  print(jarque.bera.test(Z))
+  #hist(X_mean,xlim=c(0.2,0.8),main=paste("Histogram of X mean (N =",j,")"))
+  #print(jarque.bera.test(X_mean))
+  pause(5)
+}
